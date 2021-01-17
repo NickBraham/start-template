@@ -1,0 +1,21 @@
+$acent: #222 
+
+=flow
+	transition: all .25s
+=flow-slow($sec)
+	transition: all $sec
+=placeholder
+	&::-webkit-input-placeholder
+		@content
+	&:-moz-placeholder
+		@content
+	&::-moz-placeholder
+		@content
+	&:-ms-input-placeholder
+		@content
+=regular
+	font-family: "RobotoRegular"
+=bold
+	font-family: "RobotoBold"
+=light
+	font-family: "RobotoLight"
